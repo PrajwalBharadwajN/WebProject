@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+<title>Contact Us Form</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
   <meta charset="utf-8">
   <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,17 +26,11 @@
   <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
   <link rel="shortcut icon" href="ico/favicon.png" />
 
-  <!-- =======================================================
-    Theme Name: Remember
-    Theme URL: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
-</head>
 
+</head>
 <body>
 
-  <div id="wrapper">
+<div id="wrapper" class="topmost">
     <!-- start header -->
     <header>
       <div class="top">
@@ -45,6 +39,7 @@
             <div class="span6">
               <ul class="topmenu">
                 <li><a href="#">Home</a> &#47;</li>
+
 
               </ul>
             </div>
@@ -60,89 +55,13 @@
           </div>
         </div>
       </div>
-      <div class="container">
+	  </div>
 
 
-        <div class="row nomargin">
-          <div class="span4">
-            <div class="logo">
-              <h1><a href="index.html"> DSC-VVCE</a></h1>
-            </div>
-          </div>
-          <div class="span8">
-            <div class="navbar navbar-static-top">
-              <div class="navigation">
-                <nav>
-                  <ul class="nav topnav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
-                        <a href="about.html">About us</a>
-                    </li>
-                    <li class="active">
-                      <a href="contact.html">Contact </a>
-                    </li>
-
-                    <li class="dropdown">
-                      <a href="#">Features <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="typography.html">Projects</a></li>
-                        <li><a href="components.html">Workshops</a></li>
-                        <li><a href="icon-variations.html">Google Developer Events</a></li>
-
-                      </ul>
-                    </li>
-
-                    <li class="dropdown">
-                      <a href="#">Wings<i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="portfolio-2cols.html">Android Application Development</a></li>
-                        <li><a href="portfolio-3cols.html">Web Development</a></li>
-                        <li><a href="portfolio-4cols.html">Machine Learning and Artificial Intelligence</a></li>
-                        <li><a href="portfolio-detail.html">Cloud Platform</a></li>
-                      </ul>
-                    </li>
-
-
-                  </ul>
-                </nav>
-              </div>
-              <!-- end navigation -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- end header -->
-
-    <section id="inner-headline">
-      <div class="container">
-        <div class="row">
-          <div class="span4">
-            <div class="inner-heading">
-              <h2>Get in touch</h2>
-            </div>
-          </div>
-          <div class="span8">
-            <ul class="breadcrumb">
-              <li><a href="index.html">Home</a> <i class="icon-angle-right"></i></li>
-              <li class="active">Contact</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="content">
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6911166298496!2d76.61655631481544!3d12.336564991274768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7a5fd7f84b71%3A0x56edd06e7a72a40!2sVidyavardhaka%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1574136190391!5m2!1sen!2sin" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <div class="container">
-        <div class="row">
-          <div class="span8">
-            <h4>Get in touch with us by filling contact form below</h4>
-
-
-
-                    <form name="frmContact" id="frmContact"" method="post"
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6911166298496!2d76.61655631481544!3d12.336564991274768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7a5fd7f84b71%3A0x56edd06e7a72a40!2sVidyavardhaka%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1574136190391!5m2!1sen!2sin" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="form-container">
+	     
+        <form name="frmContact" id="frmContact"" method="post"
             action="index.php" enctype="multipart/form-data"
             onsubmit="return validateContactForm()">
 
@@ -183,26 +102,8 @@
                     </div>
             </div>
         </form>
-          </div>
-          <div class="span4">
-            <div class="clearfix"></div>
-            <aside class="right-sidebar">
+    </div>
 
-              <div class="widget">
-                <h5 class="widgetheading">Contact information<span></span></h5>
-
-                <ul class="contact-info">
-                  <li><label>Address :</label> P.B. No.206, Gokulam III Stage<br/>Mysuru - 570002, Karnataka, India.</li>
-
-                  <li><label>Email : </label>dsc@vvce.ac.in</li>
-                </ul>
-
-              </div>
-            </aside>
-          </div>
-        </div>
-      </div>
-    </section>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"
         type="text/javascript"></script>
     <script type="text/javascript">
@@ -238,9 +139,34 @@
                 $("#subject").css('border', '#e66262 1px solid');
                 valid = false;
             }
+            if (content == "") {
+                $("#userMessage-info").html("Required.");
+                $("#content").css('border', '#e66262 1px solid');
+                valid = false;
+            }
             return valid;
         }
-</script>
+</script> 
+<div class="span4">
+            <div class="clearfix"></div>
+            <aside class="right-sidebar">
+
+              <div class="widget">
+                <h5 class="widgetheading">Contact information<span></span></h5>
+
+                <ul class="contact-info">
+                  <li><label>Address :</label> P.B. No.206, Gokulam III Stage<br/>Mysuru - 570002, Karnataka, India.</li>
+
+                  <li><label>Email : </label>dsc@vvce.ac.in</li>
+                </ul>
+
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container">
         <div class="row">
@@ -271,47 +197,6 @@
               <div class="copyright">
                 <p><span>&copy; DSC-VVCE Inc. All right reserved</span></p>
               </div>
-
-            </div>
-
-            <div class="span6">
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Remember
-                -->
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <a href="#" class="scrollup"><i class="icon-angle-up icon-rounded icon-bglight icon-2x"></i></a>
-
-  <!-- javascript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/modernizr.custom.js"></script>
-  <script src="js/toucheffects.js"></script>
-  <script src="js/google-code-prettify/prettify.js"></script>
-  <script src="js/jquery.prettyPhoto.js"></script>
-  <script src="js/portfolio/jquery.quicksand.js"></script>
-  <script src="js/portfolio/setting.js"></script>
-  <script src="js/animate.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Custom JavaScript File -->
-  <script src="js/custom.js"></script>
-
+			  </div>
 </body>
-
 </html>
