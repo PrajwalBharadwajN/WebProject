@@ -5,8 +5,9 @@ if(!empty($_POST["send"])) {
 	$subject = $_POST["subject"];
 	$content = $_POST["content"];
 
-	$toEmail = "admin@phppot_samples.com";
+	$toEmail = "imkp.282@gmail.com";
 	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	//ini_set("SMTP",$mailHeaders);
 	if(mail($toEmail, $subject, $content, $mailHeaders)) {
 	    $message = "Your contact information is received successfully.";
 	    $type = "success";
