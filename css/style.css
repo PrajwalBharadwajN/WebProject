@@ -2159,7 +2159,8 @@ footer h5 a:hover, footer a:hover {
 section.demogrid .span1,section.demogrid .span2,section.demogrid .span3,section.demogrid .span4,section.demogrid .span5,section.demogrid .span6,section.demogrid .span7,section.demogrid .span8,section.demogrid .span9,section.demogrid .span10,section.demogrid .span11 {
 	background:#f6f6f6;
 	text-align:center;
-	padding:20px 0 20px;
+	/*padding:20px 0 20px;*/
+	margin-left:50px;
 }
 
 section.demogrid .show-grid .row {
